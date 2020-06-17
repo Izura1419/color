@@ -18,5 +18,6 @@ function Click() {
 	bg.style.backgroundColor = d ;
 
 	span.innerHTML = d;
-}
 
+	setInterval(Click,1000);
+}

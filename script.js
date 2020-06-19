@@ -6,7 +6,9 @@ function get(max,min){
 	return f;
 }
 
-
+function set(){
+	setTimeout(Click,0);
+}
 
 function Click() {
 	let a = get(255,0);
@@ -19,5 +21,5 @@ function Click() {
 
 	span.innerHTML = d;
 
-	setInterval(Click,1000);
+	setTimeout(Click,2000);
 }
